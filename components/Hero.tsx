@@ -1,8 +1,6 @@
-"use client";
-
 import React, { useEffect } from "react";
 import { renderCanvas } from "./ui/canvas";
-import { Rocket, Mail, Github, Linkedin, ChevronDown, Code, Database, ArrowRight } from "lucide-react";
+import { Rocket, Mail, Github, Linkedin, ChevronDown, ArrowRight } from "lucide-react";
 
 export function Hero() {
     useEffect(() => {
